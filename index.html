@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Visit Japan — Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <h1 class="logo">Visit Japan</h1>
+      <nav class="nav" id="nav">
+        <a href="#destinations">Destinations</a>
+        <a href="#itinerary">Itineraries</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle">☰</button>
+    </div>
+<style>
+h2 {
+    font-family: 'feeling passionate', cursive;
+    font-size: 20px;}
+
+
+</style>
+
+
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: url('https://images.vexels.com/media/users/3/143508/raw/1b68fd4add27d3c0d318680a0b0d0f9e-japan-artistic-flag.jpg');">
+      <div class="container hero-content">
+        <h2>Discover the Heart of Japan</h2>
+        <p>Temples, food, nature and neon — plan your perfect trip.</p>
+        <a class="btn" href="Moredestinations.html">Explore More Destinations</a>
+      </div>
+    </section>
+
+    <section id="destinations" class="container section">
+      <h3>Top Destinations</h3>
+      <div class="grid">
+        <article class="card">
+          <a href="tokyo.html">
+            <img src="https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/16:9/w_6000,h_3375,c_limit/tokyoGettyImages-1031467664.jpeg" alt="Tokyo skyline">
+          <h4>Tokyo</h4>
+          <p>Vibrant metropolis blending tradition and ultramodern life.</p>
+            </a>
+        </article>
+
+        <article class="card">
+          <a href="kyoto.html">
+          <img src="https://i.pinimg.com/1200x/cb/8c/d1/cb8cd1646105d18a5884bd47c876823a.jpg" alt="Kyoto temple">
+          <h4>Kyoto</h4>
+          <p>Historic temples, geisha districts and serene gardens.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="Hiroshima.html">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUXsFq-Yycuq2pT8ygsEXzirE6eZSJyU338Q&s" alt="Hiroshima">
+          <h4>Hiroshima</h4>
+          <p>Iconic peak and beautiful surrounding lakes and trails.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href ="osaka.html">
+          <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2020/06/osaka-dotonbori-iStock-1138049211-1024x683.jpg" alt="Osaka street food">
+          <h4>Osaka</h4>
+          <p>Food capital with lively nightlife and friendly locals.</p>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="itinerary" class="container section">
+      <h3>Sample 7-Day Itinerary</h3>
+      <ol class="itinerary">
+        <li>Day 1: Arrive Tokyo — Shibuya & Shinjuku</li>
+        <li>Day 2: Tokyo — Asakusa, Senso-ji, Ueno</li>
+        <li>Day 3: Day trip to Nikko or Kamakura</li>
+        <li>Day 4: Shinkansen to Kyoto — Gion & Kiyomizu-dera</li>
+        <li>Day 5: Kyoto temples & Arashiyama bamboo grove</li>
+        <li>Day 6: Osaka — Dotonbori & street food tour</li>
+        <li>Day 7: Return / Shopping & departure</li>
+      </ol>
+    </section>
+
+    <section id="book" class="container section">
+      <h3>Book a Trip</h3>
+      <form id="booking-form" class="form">
+        <label>Full name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Destination
+          <select name="destination">
+            <option>Tokyo</option>
+            <option>Kyoto</option>
+            <option>Osaka</option>
+            <option>Mount Fuji</option>
+          </select>
+        </label>
+        <label>Start date<input type="date" name="start"></label>
+        <label>Nights<input type="number" name="nights" min="1" value="5"></label>
+        <button class="btn" type="submit">Request Quote</button>
+      </form>
+    </section>
+
+    <section id="map" class="container section">
+      <h3>Where is Japan?</h3>
+      <div class="map-wrap">
+        <iframe title="map" src="https://www.google.com/maps?q=Japan&output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Contact & Tips</h3>
+      <p>Local tip: Get a Suica/Pasmo card for easy travel in cities. Carry cash for smaller shops.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Visit Japan — Sample site for trip planning.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
